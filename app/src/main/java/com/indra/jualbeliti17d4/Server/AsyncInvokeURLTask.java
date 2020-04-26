@@ -1,4 +1,4 @@
-package com.indra.jualbeliti17d4.Server;
+package com.indra.jualbeliti17d4.server;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -20,13 +20,13 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class AsyncInvokeURLTask extends AsyncTask<Void, Void, String> {
-    public String mNoteItWebUrl = "www.candra.com";
+    public String mNoteItWebUrl = "www.indra.com";
     private ArrayList<NameValuePair> mParams;
     private OnPostExecuteListener onPostExecuteListener = null;
     private ProgressDialog dialog;
     public boolean showdialog = false;
     public String message ="Proses Data";
-    public String url_server = "http://localhost/xphone";
+    public String url_server = "http://10.0.2.2/xphone";
     public Context applicationContext;
     public static interface OnPostExecuteListener {
         void onPostExecute(String result);

@@ -10,4 +10,7 @@
     <string name="tittle_activity_add_new">Form Handphone</string>
     <string name="action_settings">setting</string>
     <string name="tittle_activity_detail_handphone">Detail Handphone</string>
+    <string name="tv_nama" />
+    <string name="title_activity_add_new" />
+    <string name="title_activity_deail_handphone" />
 </resources>

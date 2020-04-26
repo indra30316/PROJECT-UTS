@@ -18,4 +18,8 @@ public class Handphone {
     public String getNama() { return nama;}
     public void setNama(String nama) {this.nama = nama;}
     public String getHarga() {return harga;}
+
+    public void setHarga(String harga) {
+        this.harga = harga;
+    }
 }
